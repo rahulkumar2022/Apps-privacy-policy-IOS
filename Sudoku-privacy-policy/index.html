@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Sudoku. Learn how Sudoku handles information and protects your privacy.">
+  <title>Privacy Policy | Sudoku</title>
+  <style>
+    :root {
+      --ink: #17231f;
+      --muted: #60716b;
+      --paper: #fbfcf9;
+      --panel: #ffffff;
+      --line: #dce6df;
+      --accent: #1d715c;
+      --accent-soft: #e4f1eb;
+      --warm: #f4eee2;
+      --shadow: 0 18px 55px rgba(34, 58, 48, .09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+
+    body::before {
+      content: "";
+      display: block;
+      height: 8px;
+      background: linear-gradient(90deg, var(--accent), #82b9a0 55%, #d9b66d);
+    }
+
+    .page-shell {
+      width: min(1100px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: end;
+      padding: 72px 0 54px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 24px;
+      color: var(--accent);
+      font: 700 14px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .mark {
+      display: grid;
+      grid-template-columns: repeat(3, 8px);
+      gap: 3px;
+      width: 30px;
+      height: 30px;
+      padding: 3px;
+      border: 2px solid var(--accent);
+      border-radius: 7px;
+    }
+
+    .mark span { border: 1px solid var(--accent); border-radius: 1px; }
+    h1, h2 { line-height: 1.12; font-weight: 400; }
+    h1 { max-width: 680px; margin: 0; font-size: clamp(42px, 7vw, 76px); letter-spacing: -.03em; }
+    .intro { max-width: 630px; margin: 24px 0 0; color: var(--muted); font-size: 19px; }
+
+    .updated {
+      min-width: 180px;
+      padding: 18px 20px;
+      border-left: 3px solid #d9b66d;
+      color: var(--muted);
+      background: var(--warm);
+      font: 13px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .updated strong { display: block; color: var(--ink); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+
+    .layout { display: grid; grid-template-columns: 220px 1fr; gap: 70px; padding: 54px 0 80px; }
+    nav { position: sticky; top: 24px; align-self: start; }
+    nav p { margin: 0 0 14px; color: var(--accent); font: 700 11px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+    nav a { display: block; padding: 5px 0; color: var(--muted); font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; text-decoration: none; }
+    nav a:hover, nav a:focus { color: var(--accent); }
+
+    main { min-width: 0; }
+    section { padding: 0 0 38px; margin-bottom: 38px; border-bottom: 1px solid var(--line); }
+    section:last-child { margin-bottom: 0; border-bottom: 0; }
+    h2 { margin: 0 0 15px; font-size: 30px; }
+    p { margin: 0 0 15px; }
+    ul { margin: 0 0 15px; padding-left: 22px; }
+    li { padding-left: 5px; margin: 5px 0; }
+    a { color: var(--accent); }
+
+    .callout {
+      margin: 0 0 38px;
+      padding: 26px 30px;
+      border: 1px solid #c8e1d5;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      box-shadow: var(--shadow);
+    }
+
+    .callout strong { display: block; margin-bottom: 5px; font: 700 12px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+
+    footer { padding: 28px 0 42px; border-top: 1px solid var(--line); color: var(--muted); font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    @media (max-width: 760px) {
+      .page-shell { width: min(100% - 32px, 620px); }
+      header { display: block; padding: 48px 0 36px; }
+      .updated { display: inline-block; margin-top: 30px; }
+      .layout { display: block; padding-top: 34px; }
+      nav { position: static; display: flex; flex-wrap: wrap; gap: 3px 18px; padding: 0 0 30px; border-bottom: 1px solid var(--line); margin-bottom: 38px; }
+      nav p { width: 100%; margin-bottom: 8px; }
+      nav a { padding: 3px 0; }
+      .callout { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header>
+      <div>
+        <div class="brand"><span class="mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span> Sudoku</div>
+        <h1>Privacy Policy</h1>
+        <p class="intro">Sudoku is designed to keep your game private. This policy explains what information the app handles and what stays on your device.</p>
+      </div>
+      <div class="updated"><strong>Last updated</strong> August 19, 2026</div>
+    </header>
+
+    <div class="layout">
+      <nav aria-label="Policy sections">
+        <p>On this page</p>
+        <a href="#overview">Overview</a>
+        <a href="#information">Information we collect</a>
+        <a href="#local">Local storage</a>
+        <a href="#services">Services and tracking</a>
+        <a href="#choices">Your choices</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <main>
+        <div class="callout">
+          <strong>The short version</strong>
+          Sudoku does not require an account and does not collect, sell, or share personal information. Game progress and settings are stored locally on your device.
+        </div>
+
+        <section id="overview">
+          <h2>Overview</h2>
+          <p>This Privacy Policy applies to the Sudoku mobile application (the “App”). It describes how the App handles information when you use it.</p>
+          <p>By using the App, you agree to the practices described in this policy. The App is intended to work offline and does not operate a user account or a backend service.</p>
+        </section>
+
+        <section id="information">
+          <h2>Information We Collect</h2>
+          <p>We do not collect personal information through the App. In particular, the App does not request or collect your name, email address, phone number, contacts, precise location, photos, or payment information.</p>
+          <p>The App does not include registration, login, user profiles, or a server-side database for gameplay information.</p>
+        </section>
+
+        <section id="local">
+          <h2>Information Stored Locally</h2>
+          <p>The App may save information on your device so that it can provide its core features. This can include:</p>
+          <ul>
+            <li>Game progress, completed puzzles, and scores</li>
+            <li>App preferences, such as sound or display settings</li>
+          </ul>
+          <p>This information remains on your device under the control of your operating system. We cannot access it remotely. Deleting the App generally removes its locally stored data, subject to your device’s normal backup and restore settings.</p>
+        </section>
+
+        <section id="services">
+          <h2>Internet, Analytics, and Advertising</h2>
+          <p>The App does not require an internet connection for gameplay. We do not use analytics services, advertising networks, tracking technologies, or third-party SDKs that collect personal information.</p>
+          <p>The App does not track you across apps or websites and does not share information with data brokers or other third parties.</p>
+        </section>
+
+        <section>
+          <h2>Notifications</h2>
+          <p>If you enable notifications, the App may use your device’s notification features to send reminders or other app notifications. You can change notification permissions at any time in your device settings. We do not use notifications to collect personal information.</p>
+        </section>
+
+        <section>
+          <h2>Children’s Privacy</h2>
+          <p>The App does not knowingly collect personal information from children or from any other users. Because no account or personal-data collection is required, the App can be used without providing personal information.</p>
+        </section>
+
+        <section>
+          <h2>Data Security and Retention</h2>
+          <p>Because gameplay information is stored locally, its security and retention are also affected by your device’s security settings, backups, and access controls. We retain no personal information on our own systems.</p>
+        </section>
+
+        <section id="choices">
+          <h2>Privacy Choices and Data Deletion</h2>
+          <p>You can stop all local processing by deleting the App. You can also manage notification permissions through your device settings. Since we do not maintain user accounts or remote personal-data records, there is no separate account deletion request required.</p>
+        </section>
+
+        <section>
+          <h2>Changes to This Policy</h2>
+          <p>We may update this Privacy Policy when the App’s features or data practices change. The “Last updated” date at the top of this page shows when the policy was most recently revised. We encourage you to review this page periodically.</p>
+        </section>
+
+        <section id="contact">
+          <h2>Contact Information</h2>
+          <p>For questions about this Privacy Policy or the App’s privacy practices, contact the developer through the support contact listed on the App Store product page.</p>
+        </section>
+      </main>
+    </div>
+
+    <footer>© 2026 Sudoku. This privacy policy applies to the Sudoku app.</footer>
+  </div>
+</body>
+</html>
