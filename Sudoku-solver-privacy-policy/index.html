@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Sudoku Solver. Learn how Sudoku Solver handles information and protects your privacy.">
+  <title>Privacy Policy | Sudoku Solver</title>
+  <style>
+    :root {
+      --ink: #17231f;
+      --muted: #60716b;
+      --paper: #fbfcf9;
+      --panel: #ffffff;
+      --line: #dce6df;
+      --accent: #1d715c;
+      --accent-soft: #e4f1eb;
+      --warm: #f4eee2;
+      --shadow: 0 18px 55px rgba(34, 58, 48, .09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+
+    body::before {
+      content: "";
+      display: block;
+      height: 8px;
+      background: linear-gradient(90deg, var(--accent), #82b9a0 55%, #d9b66d);
+    }
+
+    .page-shell {
+      width: min(1100px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: end;
+      padding: 72px 0 54px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 24px;
+      color: var(--accent);
+      font: 700 14px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .mark {
+      display: grid;
+      grid-template-columns: repeat(3, 8px);
+      gap: 3px;
+      width: 30px;
+      height: 30px;
+      padding: 3px;
+      border: 2px solid var(--accent);
+      border-radius: 7px;
+    }
+
+    .mark span { border: 1px solid var(--accent); border-radius: 1px; }
+    h1, h2 { line-height: 1.12; font-weight: 400; }
+    h1 { max-width: 680px; margin: 0; font-size: clamp(42px, 7vw, 76px); letter-spacing: -.03em; }
+    .intro { max-width: 630px; margin: 24px 0 0; color: var(--muted); font-size: 19px; }
+
+    .updated {
+      min-width: 180px;
+      padding: 18px 20px;
+      border-left: 3px solid #d9b66d;
+      color: var(--muted);
+      background: var(--warm);
+      font: 13px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .updated strong { display: block; color: var(--ink); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+
+    .layout { display: grid; grid-template-columns: 220px 1fr; gap: 70px; padding: 54px 0 80px; }
+    nav { position: sticky; top: 24px; align-self: start; }
+    nav p { margin: 0 0 14px; color: var(--accent); font: 700 11px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+    nav a { display: block; padding: 5px 0; color: var(--muted); font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; text-decoration: none; }
+    nav a:hover, nav a:focus { color: var(--accent); }
+
+    main { min-width: 0; }
+    section { padding: 0 0 38px; margin-bottom: 38px; border-bottom: 1px solid var(--line); }
+    section:last-child { margin-bottom: 0; border-bottom: 0; }
+    h2 { margin: 0 0 15px; font-size: 30px; }
+    p { margin: 0 0 15px; }
+    ul { margin: 0 0 15px; padding-left: 22px; }
+    li { padding-left: 5px; margin: 5px 0; }
+    a { color: var(--accent); }
+
+    .callout {
+      margin: 0 0 38px;
+      padding: 26px 30px;
+      border: 1px solid #c8e1d5;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      box-shadow: var(--shadow);
+    }
+
+    .callout strong { display: block; margin-bottom: 5px; font: 700 12px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+
+    footer { padding: 28px 0 42px; border-top: 1px solid var(--line); color: var(--muted); font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    @media (max-width: 760px) {
+      .page-shell { width: min(100% - 32px, 620px); }
+      header { display: block; padding: 48px 0 36px; }
+      .updated { display: inline-block; margin-top: 30px; }
+      .layout { display: block; padding-top: 34px; }
+      nav { position: static; display: flex; flex-wrap: wrap; gap: 3px 18px; padding: 0 0 30px; border-bottom: 1px solid var(--line); margin-bottom: 38px; }
+      nav p { width: 100%; margin-bottom: 8px; }
+      nav a { padding: 3px 0; }
+      .callout { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header>
+      <div>
+        <div class="brand"><span class="mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span> Sudoku Solver</div>
+        <h1>Privacy Policy</h1>
+        <p class="intro">Sudoku Solver is designed to keep your game private. This policy explains what information the app handles and what stays on your device.</p>
+      </div>
+      <div class="updated"><strong>Last updated</strong> September 18, 2026</div>
+    </header>
+
+    <div class="layout">
+      <nav aria-label="Policy sections">
+        <p>On this page</p>
+        <a href="#information">Information</a>
+        <a href="#local">On-device storage</a>
+        <a href="#services">Services</a>
+        <a href="#choices">Your choices</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <main>
+        <div class="callout">
+          <strong>The short version</strong>
+          The core Sudoku Solver app does not require an account or an internet connection. Gameplay progress is stored locally on your device and is not transmitted to our servers.
+        </div>
+
+        <section id="information">
+          <h2>1. Information We Collect</h2>
+          <h3>Personal Information</h3>
+          <p>We do not require or collect personal information such as:</p>
+          <ul><li>Name</li><li>Email address</li><li>Phone number</li><li>Postal address</li><li>Contacts</li><li>Account credentials</li><li>Government identification</li><li>Payment information</li></ul>
+          <p>The App does not require registration or an account to play Sudoku.</p>
+          <h3>Gameplay Information</h3>
+          <p>The App may store gameplay information locally on your device, such as:</p>
+          <ul><li>Sudoku puzzles and completion status</li><li>Game progress, solving times, and scores</li><li>Streaks, hints used, mistakes, achievements, and statistics</li><li>Game settings and theme preferences</li></ul>
+          <p>This information is used solely to save progress, resume games, display statistics, maintain streaks, and customize your gameplay experience.</p>
+          <p><strong>This gameplay information is stored locally on your device and is not transmitted to our servers.</strong></p>
+        </section>
+
+        <section id="local">
+          <h2>2. Information Stored on Your Device</h2>
+          <p>The App may store information locally using Apple's device storage technologies. Examples include current and completed puzzles, game history, statistics, achievements, streak information, preferences, theme selection, and accessibility settings.</p>
+          <p>This information remains on your device unless you delete the App or otherwise remove the associated application data.</p>
+        </section>
+
+        <section id="services">
+          <h2>3. Internet and Network Access</h2>
+          <p>The core functionality of the App does not require an internet connection. You can play Sudoku offline, in Airplane Mode, without Wi-Fi, or without cellular data.</p>
+          <p>The App does not require an online account or a server connection to generate or play Sudoku puzzles.</p>
+        </section>
+
+        <section>
+          <h2>4. Analytics</h2>
+          <p>We do not use third-party analytics services to collect information about your use of the App.</p>
+        </section>
+
+        <section>
+          <h2>5. Advertising</h2>
+          <p>The App does not display third-party advertising and does not use advertising identifiers for advertising purposes.</p>
+        </section>
+
+        <section>
+          <h2>6. Tracking</h2>
+          <p>We do not track your activity across other companies' apps or websites for advertising or other tracking purposes. The App does not use your personal information to create an advertising profile.</p>
+        </section>
+
+        <section>
+          <h2>7. Third-Party Services</h2>
+          <p>The core version of the App does not require third-party services to provide Sudoku gameplay. The App does not send your gameplay data to external servers for the core Sudoku experience.</p>
+        </section>
+
+        <section>
+          <h2>8. Game Center</h2>
+          <p>The App does not currently require or use Apple Game Center.</p>
+        </section>
+
+        <section>
+          <h2>9. Notifications</h2>
+          <p>The App may optionally provide local notifications, such as reminders for daily Sudoku challenges. Notifications are optional and can be enabled or disabled through the App or your device's notification settings. Notifications are not required to play Sudoku.</p>
+        </section>
+
+        <section>
+          <h2>10. Children's Privacy</h2>
+          <p>The App does not knowingly collect personal information from children. Because the core game does not require an account or submission of personal information, users can play without providing personal information to us.</p>
+        </section>
+
+        <section>
+          <h2>11. Data Security</h2>
+          <p>Because core gameplay data is stored locally and is not transmitted to our servers, we do not maintain a central server-side database containing your Sudoku gameplay information. You are responsible for maintaining the security of your device, including using a passcode, Face ID, or Touch ID where supported.</p>
+        </section>
+
+        <section>
+          <h2>12. Data Retention</h2>
+          <p>We do not maintain server-side copies of your Sudoku gameplay data. Local gameplay information remains on your device until you delete it through an available in-app option, reset the application's data where supported, or delete the App and its associated data.</p>
+        </section>
+
+        <section id="choices">
+          <h2>13. Deleting Your Data</h2>
+          <p>You can remove locally stored information by using the App's available reset or delete functionality, or by deleting the App from your device. Deleted local data generally cannot be recovered unless you have a separate device backup.</p>
+          <h2>14. Your Privacy Choices</h2>
+          <p>You can control available features through Settings in the App or through your device settings. Depending on your version of the App, you may be able to disable notifications, sounds, and haptics; reset gameplay progress; delete local game data; and change accessibility preferences.</p>
+        </section>
+
+        <section>
+          <h2>15. Changes to This Privacy Policy</h2>
+          <p>We may update this policy to reflect changes to the App, privacy practices, applicable laws, third-party services, or Apple's platform requirements. When we make changes, we will update the Last Updated date at the top of this page.</p>
+        </section>
+
+        <section id="contact">
+          <h2>16. Contact Us</h2>
+          <p>If you have questions about this Privacy Policy or the App's privacy practices, contact us at:</p>
+          <p><strong>Email:</strong> rahul1502.iimt@gmail.com<br><strong>Developer:</strong> Rahul Gupta<br><strong>App:</strong> Sudoku Solver</p>
+        </section>
+
+        <section>
+          <h2>17. Summary</h2>
+          <p>Your Sudoku Solver game should be playable without giving us your personal information. The core App:</p>
+          <ul><li>does not require an account or internet connection;</li><li>stores gameplay progress locally;</li><li>does not sell personal information;</li><li>does not use gameplay data for advertising;</li><li>does not require tracking, contacts, photos, location, microphone, or other sensitive device access.</li></ul>
+        </section>
+      </main>
+    </div>
+
+    <footer>© 2026 Sudoku Solver. This privacy policy applies to the Sudoku Solver app.</footer>
+  </div>
+</body>
+</html>
